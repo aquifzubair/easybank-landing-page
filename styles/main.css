@@ -1,8 +1,14 @@
+html {
+  background-color:hsl(0, 0%, 98%);
+
+}
+
 body {
   font-size: 18px;
   font-family: "Public Sans", sans-serif;
   font-weight: 500;
   color: hsl(0, 0%, 30%);
+  background-color:hsl(0, 71%, 46%);
   background: url("./../images/image-mockups.png"),
     url("./../images/bg-intro-desktop.svg");
   background-size: auto 700px, 700px 700px;
@@ -98,13 +104,12 @@ body {
 
 .section-container2 .item2 {
   display: flex;
-  width:100%;
+  width: 100%;
   justify-content: space-between;
   margin: 3em 8em;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+  padding-bottom: 5em;
 }
-
-
 
 .icon-online {
   height: 100px;
@@ -115,25 +120,62 @@ body {
 }
 
 .icon-budgeting {
-    height: 100px;
-    width: 100px;
-    background: url("./../images/icon-budgeting.svg");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-  }
+  height: 100px;
+  width: 100px;
+  background: url("./../images/icon-budgeting.svg");
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
 
-  .icon-onboarding {
-    height: 100px;
-    width: 100px;
-    background: url("./../images/icon-onboarding.svg");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-  }
+.icon-onboarding {
+  height: 100px;
+  width: 100px;
+  background: url("./../images/icon-onboarding.svg");
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
 
-  .icon-api {
-    height: 100px;
-    width: 100px;
-    background: url("./../images/icon-api.svg");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-  }
+.icon-api {
+  height: 100px;
+  width: 100px;
+  background: url("./../images/icon-api.svg");
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 8em;
+}
+
+.article-container .item1 {
+  width: 100%;
+}
+
+.article-container .item2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 3em 0em;
+  flex-wrap: wrap;
+}
+
+.article-container .item2 > article {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.image {
+    height:200px;
+    width:250px;
+    border-radius:.2em;
+}
+
+.article-writer {
+    font-size:.5em;
+    margin:2em 0;
+}
+
+
