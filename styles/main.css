@@ -5,6 +5,7 @@ body {
   color: hsl(0, 0%, 30%);
 }
 
+
 .header-container {
   display: flex;
   justify-content: center;
@@ -49,14 +50,14 @@ body {
 }
 
 .btn:hover {
-  opacity:.5;
+  opacity: 0.5;
 }
 
 .section1-container {
   margin-left: 8em;
-  margin-top:-1em;
-  margin-right:auto;
-  display:inline-block;
+  margin-top: -1em;
+  margin-right: auto;
+  display: inline-block;
 }
 
 .section-item1 {
@@ -65,24 +66,24 @@ body {
 }
 
 .bg-intro {
-    background-image: url("./../images/bg-intro-desktop.svg");
-    background-repeat: no-repeat;
-    background-position: -2em -10em;
-    background-size: cover; 
+  background-image: url("./../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: -2em -10em;
+  background-size: cover;
 }
 
 .mockup {
   width: 42.3em;
-    height: 40em;
-    background-image: url("./../images/image-mockups.png");
-    background-position: 3em -5em;
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 40em;
+  background-image: url("./../images/image-mockups.png");
+  background-position: 3em -5em;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-position {
-  margin-top:-36em;
-  margin-left:30em;
+  margin-top: -36em;
+  margin-left: 30em;
 }
 
 .heading-height {
@@ -129,6 +130,18 @@ body {
   padding-bottom: 5em;
 }
 
+.online-banking {
+  width: 251px;
+}
+.simple-budgeting {
+  width: 251px;
+}
+.fast-onboarding {
+  width: 251px;
+}
+.open-api {
+  width: 251px;
+}
 .icon-online {
   height: 100px;
   width: 100px;
@@ -180,98 +193,100 @@ body {
 }
 
 .article-container .item2 > article {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:251px;
+  text-align:center;
 }
 
 .image {
-    height:200px;
-    width:250px;
-    border-radius:.2em;
+  height: 200px;
+  width: 250px;
+  border-radius: 0.2em;
 }
 
 .article-writer {
-    font-size:.5em;
-    margin:2em 0;
+  font-size: 0.5em;
+  margin: 2em 0;
 }
 
 footer {
-    background-color:hsl(233, 26%, 24%);
-    height: 10em;
+  background-color: hsl(233, 26%, 24%);
+  height: 10em;
 }
 
 .footer-container {
-    margin:0 8em;
-    padding-top:2em;
-    display:flex;
-    justify-content: space-between;
-    color:white;
+  margin: 0 8em;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
 .icon-container {
-    display:flex;
-    justify-content: space-between;
-    margin-top:2.5em;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5em;
 }
 
 .logo-icon-container {
-    display:flex;
-    flex-direction: column;
-    width:160px;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  justify-content: space-around;
 }
 .logo-container {
-    height:20px;
-    width:140px;
-    background:url("./../images/logo-white.svg")
+  height: 20px;
+  width: 140px;
+  background: url("./../images/logo-white.svg");
 }
 .facebook-icon {
-    cursor: pointer;
-    width:20px;
-    height:20px;
-    background:url("./../images/icon-facebook.svg")
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url("./../images/icon-facebook.svg");
 }
 
 .youtube-icon {
-    cursor: pointer;
-    width:20px;
-    height:20px;
-    background:url("./../images/icon-youtube.svg")
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url("./../images/icon-youtube.svg");
 }
 .twitter-icon {
-    cursor: pointer;
-    width:20px;
-    height:20px;
-    background:url("./../images/icon-twitter.svg")
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url("./../images/icon-twitter.svg");
 }
 .pinterest-icon {
-    cursor: pointer;
-    width:20px;
-    height:20px;
-    background:url("./../images/icon-pinterest.svg")
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url("./../images/icon-pinterest.svg");
 }
 .instagram-icon {
-    cursor: pointer;
-    width:20px;
-    height:20px;
-    background:url("./../images/icon-instagram.svg")
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url("./../images/icon-instagram.svg");
 }
 
 .color-white {
-    color:white;
+  color: white;
 }
 
 .font-15px {
-    font-size:15px; 
-    font-weight:1000;
+  font-size: 15px;
+  font-weight: 1000;
 }
 
 .footer-link-container1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: -12em;;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -12em;
 }
 
 .footer-link-container2 {
@@ -282,17 +297,21 @@ footer {
 }
 
 .copyright-container {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .copyright-size {
-    font-size:.8em;
-    font-weight: 500;
+  font-size: 0.8em;
+  font-weight: 500;
 }
 
-.facebook-icon:hover,.youtube-icon:hover,.twitter-icon:hover,.pinterest-icon:hover,.instagram-icon:hover {
-  background-color:#2bb7d8;
+.facebook-icon:hover,
+.youtube-icon:hover,
+.twitter-icon:hover,
+.pinterest-icon:hover,
+.instagram-icon:hover {
+  background-color: #2bb7d8;
 }
 
 .footer-links {
@@ -301,14 +320,217 @@ footer {
 }
 
 .footer-links:hover {
-  color:#2bb7d8;
+  color: #2bb7d8;
 }
 
 .attribution {
-  display:flex;
-  height:4em;
+  display: flex;
+  height: 4em;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: black;
+}
+
+#show-dropdown {
+  display:none;
   justify-content:center;
   align-items:center;
-  font-size:2em;
-  color:black;
+  height:10em;  
+}
+
+.nav-btn{
+  height:0;
+}
+
+@media all and (max-width: 480px) {
+  .link-container,
+  .attribution,
+  .bg-intro,
+  .mockup, #menu ,
+  .hide-btn,
+  #show-dropdown
+ {
+    display: none;
+  }
+
+  .nav-btn {
+    height: 20%;
+}
+
+
+  .header-container {
+    display: flex;
+    height: 3em;
+    flex-wrap: none;
+    margin: auto;
+    width:80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .logo {
+    align-self:center;
+    margin-left: 0 ;
+  }
+
+  .icon-close {
+    background: url("./../images/icon-hamburger.svg");
+    height: 25px;
+    width: 20px;
+    margin-left:auto;
+  }
+
+  .section1-container {
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align:center;
+  }
+
+  .section-item1 {
+    width: 80%;
+    margin:auto;
+    margin-top:-10em;
+    padding: 0;
+  }
+
+  .font-size-3em {
+    font-size:2em;
+  }
+
+  .top-image {
+    background-image: url("./../images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: -15em -20em;
+    background-size: cover;
+  }
+  
+  .inside-image {
+    height: 40em;
+    background-image: url("./../images/image-mockups.png");
+    background-position: 0 -12em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .section-container2 {
+    flex-wrap: none;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width:80%;
+    text-align: center;
+    margin-top:2em;
+  }
+
+  .section-container2 .item1 {
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-container2 .item2 {
+    align-items: center;
+    margin: 3em 0em;
+    flex-wrap: none;
+    flex-direction: column;
+    padding-bottom: 5em;
+  }
+
+  .section-container2 .item2 .online-banking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-container2 .item2 .simple-budgeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-container2 .item2 .fast-onboarding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-container2 .item2 .open-api {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+  }
+
+  .article-container {
+    margin: 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-container .item1 {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .article-container .item2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-container .item2 > article {
+    align-items: center;
+    text-align:left;
+    width:70%;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  footer {
+    height: 25em;
+  }
+
+  .footer-container {
+    margin: auto;
+    width:80%;
+    padding-top: 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-link-container1 {
+    align-items: center;
+    margin-left: 0;
+    margin-top: 1em;
+  }
+
+  .footer-link-container1 a {
+    margin-top: 1em;
+  }
+
+  .footer-link-container2 {
+    align-items: center;
+    margin-left: 0;
+  }
+  .footer-link-container2 a {
+    margin-top: 1em;
+  }
+
+  .copyright-container {
+    margin:auto;
+    margin-top: 1em;
+  }
+
+  .copyright-container .btn {
+    margin:auto;
+    margin-bottom:1em;
+  }
 }
